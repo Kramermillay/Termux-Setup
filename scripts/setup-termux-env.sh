@@ -14,12 +14,48 @@ sleep 3
 #Bare Minimum List
 echo 'INSTALLING NECESSARY PACKAGES...'
 apt install -qqy --no-install-recommends \
+aptitude \
 bash-completion \
+bin-utils \
+clang \
+fd \
+file \
+fm \
+fzf \
+gh \
+git \
+htop \
+jq \
+links \
+lld \
+llvm \
+lz4 \
 linux-man-pages \
+lzip \
+python \
+fish \
+openssh \
 man \
+mc \
+micro \
 neofetch \
+nmap \
+p7zip \
+proot \
+proot-distro \
+rclone \
+rsync \
+tealdeer \
+termux-api \
+tmux \
+tree \
 texinfo \
-wget
+vim \
+wget \
+wine \
+zip \
+zsh \
+zstd
 echo 'DONE'
 sleep 2
 
